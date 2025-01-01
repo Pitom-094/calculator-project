@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+div
+{
+   text-align: center;
+   }
+
+.card{
+    margin: 0 auto;
+
+    text-align: center;
+    max-width: 600px;
+
+    margin-top: 10px;
+    box-shadow: 0 4px 9px 0 red;
+
+    transform: 0.3s;
+font-size: 0;
+    
+}
+
+.card:hover{
+    box-shadow: 0 16px 25px 0 red;
+
+}
+.screen #result
+{
+    height: 150px;
+    width: 276px;
+
+    font-weight: 330px;
+    font-weight: bold;
+
+    text-align: right;
+    padding: 0 10px;
+letter-spacing: 6px;
+
+}
+
+.btn{
+height: 42px;
+width: 70px;
+
+text-align: center;
+font-size: 16px;
+
+background-color: black;
+color: gold;
+
+}
+.btn1
+{
+    background-color: aqua;
+    height: 42px;
+width: 70px;
+
+text-align: center;
+
+font-size: 16px;
+}
+
+.btnn{
+background-color: blueviolet;
+
+height: 42px;
+width: 70px;
+
+text-align: center;
+font-size: 16px;
+
+}
+.btn:hover, .btn1:hover, .btnn:hover {
+
+    background-color: cadetblue;
+}
